@@ -3,17 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 
-    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+
+    <title>Joe Marshall</title>
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
+    <script type="text/javascript" charset="utf-8">
+			$(function(){
+	    	$('#maximage').maximage({});
+	    }
+		</script>
   </head>
 
   <body>
 
     <%= yield %>
     <%= javascript_include_tag "application" %>
-  </body>
+   
+  	</body>
 </html>
