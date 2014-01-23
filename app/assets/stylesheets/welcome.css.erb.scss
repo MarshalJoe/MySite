@@ -8,8 +8,8 @@ $background_color:lighten(black, 20%);
 	color:lighten(#51f909, 10%);
 }
 
-.white {
-	color: white;
+.blue {
+	color: lighten(#009ACD, 10%);
 }
 
 .yellow {
@@ -22,7 +22,7 @@ $background_color:lighten(black, 20%);
 
 .code_text {
 	font-size: 1.75em;
-	color: lighten(#009ACD, 10%);
+	color:white;
 }
 
 .indent {
