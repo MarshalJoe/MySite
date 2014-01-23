@@ -4,10 +4,16 @@
 $header:lighten(blue, 30%);
 $background_color:lighten(black, 20%); 
 
-body {
+.green {
+	color:lighten(#51f909, 10%);
 }
 
-p {
+.white {
+	color: white;
+}
+
+.yellow {
+	color: lighten(yellow, 30%);
 }
 
 .code, {
@@ -15,7 +21,8 @@ p {
 }
 
 .code_text {
-	font-size: 2em;
+	font-size: 1.75em;
+	color: lighten(#009ACD, 10%);
 }
 
 .indent {
@@ -35,12 +42,13 @@ p {
 }
 
 p, .intro, .code {
-	margin-left: 200px;
+	margin-left: 240px;
 }
 
 #code_toggle {
 	color:black;
 	font-size: 2em;
+	margin-left: 1em;
 }
 @font-face {
     font-family: 'Consolas';
