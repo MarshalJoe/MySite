@@ -1,0 +1,50 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com
+$header:lighten(blue, 30%);
+$background_color:lighten(black, 20%); 
+
+body {
+}
+
+p {
+}
+
+.code, {
+	color: white;
+}
+
+.code_text {
+	font-size: 2em;
+}
+
+.indent {
+	padding-left: 3em;
+}
+
+.intro, .intro_text {
+	font-family: "Georgia";
+}
+
+.code, .code_text {
+	font-family: 'Consolas';
+}
+
+.intro, .code {
+	font-size: 6em;
+}
+
+p, .intro, .code {
+	margin-left: 200px;
+}
+
+#code_toggle {
+	color:black;
+	font-size: 2em;
+}
+@font-face {
+    font-family: 'Consolas';
+    src: url('<%= asset_path("Consolas.ttf") %>');
+}
+
+

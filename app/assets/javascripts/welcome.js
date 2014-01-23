@@ -3,8 +3,11 @@ $(function(){
 	jQuery('#maximage').maximage({
 		cycleOptions: {
 			fx: "fade",
-			speed: 800,
-			timeout:6000
-		}
+			timeout: 0,
+			speed: 1000,
+			prevNextEvent:'click',
+			next: '#code_toggle'
+		},
 	});
 });
+
