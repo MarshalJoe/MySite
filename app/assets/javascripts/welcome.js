@@ -6,8 +6,11 @@ $(function(){
 			timeout: 0,
 			speed: 1000,
 			prevNextEvent:'click',
-			next: '#code_toggle'
+			next: '#arrow_right',
+			prev: '#arrow_left'
 		},
+		fillElement: ".container",
+		backgroundSize: 'contain'
 	});
 });
 

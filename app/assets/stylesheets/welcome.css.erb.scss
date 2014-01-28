@@ -4,56 +4,41 @@
 $header:lighten(blue, 30%);
 $background_color:lighten(black, 20%); 
 
-.green {
-	color:lighten(#51f909, 10%);
-}
-
-.blue {
-	color: lighten(#009ACD, 10%);
-}
-
-.yellow {
-	color: lighten(yellow, 30%);
-}
-
-.code, {
-	color: white;
-}
-
-.code_text {
-	font-size: 1.75em;
-	color:white;
-	line-height: .7em;
-}
-
-.indent {
-	padding-left: 3em;
-}
-
-.intro, .intro_text {
-	font-family: "Georgia";
-}
-
-.code, .code_text {
+.file {
 	font-family: 'Consolas';
+	margin-left: 15%;
 }
 
-.intro, .code {
-	font-size: 6em;
+.directional_buttons {
+	margin-left: 8%;
+	margin-top: 4%;
 }
 
-p, .intro, .code {
-	margin-left: 240px;
-}
-
-#code_toggle {
-	color:black;
-	font-size: 2em;
-	margin-left: 1em;
-}
 @font-face {
     font-family: 'Consolas';
     src: url('<%= asset_path("Consolas.ttf") %>');
+}
+
+.indent {
+	margin-left: 6.5%;
+}
+
+.job, .sass-var {
+	line-height: .3em;
+}
+
+.maximage, .body {
+	overflow: scroll;
+}
+
+.container {
+	height:300px;
+	overflow: hidden;
+	width:300px;
+}
+ 
+#maximage {
+	position:relative !important;
 }
 
 
