@@ -1,17 +1,39 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com
+@import url(http://fonts.googleapis.com/css?family=Exo+2);
 $header:lighten(blue, 30%);
-$background_color:lighten(black, 20%); 
+$sublime_background: #272727;
+$dark_blue: darken(blue, 45%);
+
+.intro1, .intro2, .intro3, .intro4, .intro5 {
+	color:white;
+	font-size: 4em;
+	font-family: 'Exo 2';
+	margin-left: 3%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-shadow: 1px 1px 3px #000;
+} 
+
+.green {
+	color:#6df91b;
+}
 
 .file {
 	font-family: 'Consolas';
-	margin-left: 15%;
+	float:right;
+	width: 50%;
+	padding-left: 5%;
+	background-color: $sublime_background;
+	color:white;
 }
 
-.directional_buttons {
-	margin-left: 8%;
-	margin-top: 4%;
+.directional-buttons {
+	padding-left: 8%;
+	background-color: lighten($sublime_background, 15%);
+	border-top: 10px solid $dark_blue;
+	border-bottom: 10px solid $dark_blue;
 }
 
 @font-face {
@@ -27,18 +49,39 @@ $background_color:lighten(black, 20%);
 	line-height: .3em;
 }
 
-.maximage, .body {
+.sass-var {
+	color: white;
+}
+
+.maximage {
 	overflow: scroll;
 }
 
 .container {
-	height:300px;
+	height:450px;
 	overflow: hidden;
-	width:300px;
+	width:100%;
 }
  
 #maximage {
 	position:relative !important;
+}
+
+.super-body {
+	background-color: darken($sublime_background, 20%);
+	margin-left: 0px;
+}
+
+.divider {
+	height: 100px;
+}
+
+.comments {
+	color: gray;
+}
+
+.title {
+	color: white;
 }
 
 

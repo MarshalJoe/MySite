@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
 
     <title>Joe Marshall</title>
 
@@ -14,10 +14,10 @@
     <%= csrf_meta_tags %>
   </head>
 
-  <body>
+  <body class="super-body">
 
     <%= yield %>
     <%= javascript_include_tag "application" %>
    
-  	</body>
+  </body>
 </html>
