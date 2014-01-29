@@ -42,7 +42,6 @@ $dark_blue: darken(blue, 30%);
 	padding: 4% 4% 4% 4%;
 	background-color: $sublime_background;
 	color:white;
-	margin-bottom: -20px;
 }
 
 .directional-buttons {
@@ -98,12 +97,17 @@ $dark_blue: darken(blue, 30%);
 .footer {
 	background-color: $dark_blue;
 	width: 100%;
-	height: 100px;
+	height: 75px;
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
 
 .footer-text {
+	margin-top: 0px;
+	line-height: 75px;
+	font-family: "Exo 2";
+	color:white;
+	text-align: center;
 }
 
 
