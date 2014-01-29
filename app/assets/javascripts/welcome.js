@@ -21,8 +21,17 @@ $(function(){
 		$('.intro3').hide();
 		$('.intro3').delay(4000).fadeIn();
 
-		$('.intro4, .asterisk').hide();
-		$('.intro4, .asterisk').delay(7000).fadeIn();
+		$('.asterisk').hide();
+		$('.asterisk').delay(6500).fadeIn();
+
+		$('.intro4').hide();
+		$('.intro4').delay(7100).fadeIn();
+
+		$('.intro5').hide();
+		$('.intro5').delay(7700).fadeIn();
+
+		$('.intro6').hide();
+		$('.intro6').delay(8300).fadeIn();		
 });
 
 
