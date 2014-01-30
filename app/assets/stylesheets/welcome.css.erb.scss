@@ -5,11 +5,12 @@
 @import url(http://fonts.googleapis.com/css?family=Alef|Nunito);
 $header:lighten(blue, 30%);
 $sublime_background: #272727;
-$base_color: #198bc4;
+$base_color: #1d45e5;
 //#198bc4
 $dark_shade: darken($base_color, 20%);
 $darkest_shade: darken($dark_shade, 50%);
 $lighter_shade: lighten($base_color, 20%);
+$dark_gray: darken(gray, 35%);
 
 //begin necessary maximage styling
 
@@ -118,7 +119,7 @@ $lighter_shade: lighten($base_color, 20%);
 }
 
 .footer {
-	background-color: $dark_shade;
+	background-color: $base_color;
 	width: 100%;
 	height: 70px;
 	margin-bottom: 0px;
@@ -144,8 +145,8 @@ $lighter_shade: lighten($base_color, 20%);
 	background-color:white;
 	width: 80%;
 	margin: 0px auto 0px auto;
-	border-left: 20px solid $lighter_shade;
-	border-right: 20px solid $lighter_shade;
+	border-left: 20px solid $dark_gray;
+	border-right: 20px solid $dark_gray;
 
 	.top-bio {
 		margin-top: 0px;
@@ -154,6 +155,7 @@ $lighter_shade: lighten($base_color, 20%);
 
 	.bottom-bio {
 		margin-bottom: 0px;
+		padding-bottom: 70px;
 	}
 
 	h2, p {
@@ -165,7 +167,7 @@ $lighter_shade: lighten($base_color, 20%);
 	}
 
 	h2	{
-		color: $base_color;
+		color: $dark_shade;
 		font-family: "Exo 2";
 		font-size: 3em;
 		font-weight: bold;
