@@ -3,7 +3,7 @@ $(function(){
 	jQuery('#maximage').maximage({
 		cycleOptions: {
 			fx: "fade",
-			timeout: 0,
+			timeout: 8000,
 			speed: 1000,
 			prevNextEvent:'click',
 			next: '#arrow_right',
@@ -26,9 +26,9 @@ $(function(){
 
 		$('.intro5, .asterisk').hide();
 		$('.intro5, .asterisk').delay(5500).fadeIn();
-		
+
 		$('.intro6').hide();
-		$('.intro6').delay(7500).fadeIn();
+		$('.intro6').delay(7000).fadeIn();
 });
 
 

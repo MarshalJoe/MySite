@@ -6,6 +6,7 @@
 $header:lighten(blue, 30%);
 $sublime_background: #272727;
 $base_color: #198bc4;
+//#198bc4
 $dark_shade: darken($base_color, 20%);
 $darkest_shade: darken($dark_shade, 50%);
 
@@ -160,7 +161,7 @@ $darkest_shade: darken($dark_shade, 50%);
 	}
 
 	h2	{
-		color: $dark_shade;
+		color: $base_color;
 		font-family: "Exo 2";
 		font-size: 3em;
 		font-weight: bold;
