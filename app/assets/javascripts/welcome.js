@@ -27,6 +27,8 @@ $(function(){
 		$('.intro5, .asterisk').hide();
 		$('.intro5, .asterisk').delay(5500).fadeIn();
 		
+		$('.intro6').hide();
+		$('.intro6').delay(7500).fadeIn();
 });
 
 

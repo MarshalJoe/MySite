@@ -4,7 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Exo+2);
 $header:lighten(blue, 30%);
 $sublime_background: #272727;
-$base_color: #2c71f9;
+$base_color: #198bc4;
 $dark_shade: darken($base_color, 20%);
 $darkest_shade: darken($dark_shade, 50%);
 
@@ -14,6 +14,7 @@ $darkest_shade: darken($dark_shade, 50%);
 	height:450px;
 	overflow: hidden;
 	width:100%;
+	z-index:2;
 }
  
 #maximage {
@@ -22,7 +23,7 @@ $darkest_shade: darken($dark_shade, 50%);
 
 //end necesary maximage styling
 
-.intro1, .intro2, .intro3, .intro4, .intro5 {
+.intro1, .intro2, .intro3, .intro4, .intro5, .intro6 {
 	color:white;
 	font-size: 4em;
 	font-family: 'Exo 2';
@@ -31,6 +32,13 @@ $darkest_shade: darken($dark_shade, 50%);
 	line-height:1em;
 	margin-bottom: 10px;
 	text-shadow: 3px 3px 3px $darkest_shade;
+}
+
+.intro6 {
+	position:fixed;
+	right: 100px;
+	top: 30px;
+	z-index:3;
 } 
 
 .file {
@@ -108,7 +116,7 @@ $darkest_shade: darken($dark_shade, 50%);
 }
 
 .footer {
-	background-color: $base_color;
+	background-color: $dark_shade;
 	width: 100%;
 	height: 70px;
 	margin-bottom: 0px;
@@ -132,7 +140,7 @@ $darkest_shade: darken($dark_shade, 50%);
 
 .bio {
 	background-color:white;
-	width: 75%;
+	width: 85%;
 	margin: 0px auto 0px auto;
 
 	.top-bio {
