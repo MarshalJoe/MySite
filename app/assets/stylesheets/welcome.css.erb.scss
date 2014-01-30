@@ -62,7 +62,6 @@ $dark_gray: darken(gray, 35%);
 }
 
 .directional-buttons {
-	margin-left: 3.3em;
 	background-color: $base_color;
 	min-width:100px;
 	text-align: center;
@@ -71,7 +70,6 @@ $dark_gray: darken(gray, 35%);
 
 .directional-wrapper {
 	float:left;
-	width:12.5%
 }
 
 @font-face {
@@ -143,10 +141,8 @@ $dark_gray: darken(gray, 35%);
 
 .bio {
 	background-color:white;
-	width: 80%;
-	margin: 0px auto 0px auto;
-	border-left: 20px solid $dark_gray;
-	border-right: 20px solid $dark_gray;
+	width: 100%;
+	margin: 0px;
 
 	.top-bio {
 		margin-top: 0px;

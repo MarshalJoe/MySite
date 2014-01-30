@@ -1,4 +1,12 @@
+// fades in an element
+var writeText = function (ms, element) {
+		$(element).hide();
+		$(element).delay(ms).fadeIn();
+};
+
+// document ready function
 $(function(){
+
 	// Trigger maximage
 	jQuery('#maximage').maximage({
 		cycleOptions: {
@@ -12,23 +20,15 @@ $(function(){
 		fillElement: ".container",
 		backgroundSize: 'contain'
 	});
-		$('.intro1').hide();
-		$('.intro1').delay(2500).fadeIn();
 
-		$('.intro2').hide();
-		$('.intro2').delay(2700).fadeIn();
-
-		$('.intro3').hide();
-		$('.intro3').delay(3200).fadeIn();
-
-		$('.intro4').hide();
-		$('.intro4').delay(3600).fadeIn();
-
-		$('.intro5, .asterisk').hide();
-		$('.intro5, .asterisk').delay(5500).fadeIn();
-
-		$('.intro6').hide();
-		$('.intro6').delay(7000).fadeIn();
+	// write text in intro slide to page incrementally
+		writeText(2500, ".intro1");
+		writeText(2700, ".intro2");
+		writeText(3200, ".intro3");
+		writeText(3600, ".intro4");
+		writeText(5500, ".asterisk");
+		writeText(5500, ".intro5");
+		writeText(7000, ".intro6");
 });
 
 
