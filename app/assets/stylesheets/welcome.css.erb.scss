@@ -30,7 +30,7 @@ $darkest_shade: darken($dark_shade, 50%);
 	margin-top: 0px;
 	line-height:1em;
 	margin-bottom: 10px;
-	text-shadow: 5px 5px 3px $darkest_shade;
+	text-shadow: 3px 3px 3px $darkest_shade;
 } 
 
 .file {
@@ -86,7 +86,7 @@ $darkest_shade: darken($dark_shade, 50%);
 }
 
 .super-body {
-	background-color: darken($dark_shade, 35%);
+	background-color: darken($dark_shade, 50%);
 	margin-left: 0px;
 	margin-bottom: 0px;
 }
@@ -135,23 +135,43 @@ $darkest_shade: darken($dark_shade, 50%);
 	width: 75%;
 	margin: 0px auto 0px auto;
 
+	.top-bio {
+		margin-top: 0px;
+		padding-top: 50px;
+	}
+
+	.bottom-bio {
+		margin-bottom: 0px;
+		padding-bottom: 50px;
+	}
+
 	h2, p {
 		font-family: "Exo 2";
-		padding-left: 5%;
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 
 	h2	{
 		color: darken($dark_shade, 20%);
-		padding: 25px;
-		margin: 0px;
 	}
 
 	p {
 		color:black;
-		padding: 25px;
-		margin: 0px;
 	}
 
+}
+
+.image-styler {
+	margin-top: 30px;
+ width: 200px;
+ height: 200px;
+ -webkit-border-radius: 150px;
+ -moz-border-radius: 150px;
+ -ms-border-radius: 150px;
+ -o-border-radius: 150px;
+  border-radius: 150px;
+  position:relative;
+  left:38%;
 }
 
 
