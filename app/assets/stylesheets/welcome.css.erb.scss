@@ -9,6 +9,7 @@ $base_color: #198bc4;
 //#198bc4
 $dark_shade: darken($base_color, 20%);
 $darkest_shade: darken($dark_shade, 50%);
+$lighter_shade: lighten($base_color, 20%);
 
 //begin necessary maximage styling
 
@@ -142,6 +143,8 @@ $darkest_shade: darken($dark_shade, 50%);
 	background-color:white;
 	width: 80%;
 	margin: 0px auto 0px auto;
+	border-left: 20px solid $lighter_shade;
+	border-right: 20px solid $lighter_shade;
 
 	.top-bio {
 		margin-top: 0px;
