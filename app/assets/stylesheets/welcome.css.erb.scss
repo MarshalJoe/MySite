@@ -139,7 +139,7 @@ $darkest_shade: darken($dark_shade, 50%);
 
 .bio {
 	background-color:white;
-	width: 85%;
+	width: 80%;
 	margin: 0px auto 0px auto;
 
 	.top-bio {
@@ -155,18 +155,18 @@ $darkest_shade: darken($dark_shade, 50%);
 		padding-left: 10%;
 		padding-right: 10%;
 		line-height: 1.5em;
-		font-family: "Nunito";
+		
 	}
 
 	h2	{
 		color: $dark_shade;
-		font-weight: bold;
+		font-family: "Exo 2";
+		font-size: 3em;
 	}
 
 	p {
 		color:black;
-		font-size: 1.15em;
-
+		font-family: "Nunito";
 	}
 
 }
