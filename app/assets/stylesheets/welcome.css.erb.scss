@@ -4,13 +4,14 @@
 @import url(http://fonts.googleapis.com/css?family=Exo+2);
 $header:lighten(blue, 30%);
 $sublime_background: #272727;
-$base_color: #121e54;
-$dark_shade: darken($base_color, 20%) ;
+$base_color: #2c71f9;
+$dark_shade: darken($base_color, 20%);
+$darkest_shade: darken($dark_shade, 50%);
 
 //begin necessary maximage styling
 
 .container {
-	height:475px;
+	height:450px;
 	overflow: hidden;
 	width:100%;
 }
@@ -27,8 +28,9 @@ $dark_shade: darken($base_color, 20%) ;
 	font-family: 'Exo 2';
 	margin-left: 3%;
 	margin-top: 0px;
-	margin-bottom: 0px;
-	text-shadow: 1px 1px 3px $dark_shade;
+	line-height:1em;
+	margin-bottom: 10px;
+	text-shadow: 5px 5px 3px $darkest_shade;
 } 
 
 .file {
@@ -84,13 +86,13 @@ $dark_shade: darken($base_color, 20%) ;
 }
 
 .super-body {
-	background-color: darken($sublime_background, 20%);
+	background-color: darken($dark_shade, 35%);
 	margin-left: 0px;
 	margin-bottom: 0px;
 }
 
 .divider {
-	height: 85px;
+	height: 40px;
 }
 
 .title {
@@ -139,7 +141,7 @@ $dark_shade: darken($base_color, 20%) ;
 	}
 
 	h2	{
-		color: $dark_shade;
+		color: darken($dark_shade, 20%);
 		padding: 25px;
 		margin: 0px;
 	}
